@@ -1,4 +1,5 @@
 FROM node:latest
+WORKDIR /tmp/
 WORKDIR /usr/src/app
 COPY nodeapp/* /
 RUN npm install
