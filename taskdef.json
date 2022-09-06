@@ -2,7 +2,7 @@
     "family": "flask-signup",
     "containerDefinitions": [
         {
-            "image": "049398875557.dkr.ecr.ap-south-1.amazonaws.com/jenkins:%BUILD_NUMBER%",
+            "image": "049398875557.dkr.ecr.ap-south-1.amazonaws.com/jenkins:v_%BUILD_NUMBER%",
             "name": "flask-signup",
             "cpu": 10,
             "memory": 256,
