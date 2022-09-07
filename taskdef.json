@@ -14,4 +14,5 @@
 	"requiresCompatibilities": [
 		"FARGATE"
 	]
+  network_mode = "awsvpc"
 }
