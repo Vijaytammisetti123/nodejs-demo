@@ -1,6 +1,5 @@
 {
-    "family": "sample-fargate", 
-    "networkMode": "awsvpc", 
+    "family": "flask-signup", 
     "containerDefinitions": [
         {
             "name": "flask-signup", 
