@@ -5,7 +5,6 @@
 		"image": "049398875557.dkr.ecr.ap-south-1.amazonaws.com/jenkins:%BUILD_NUMBER%",
 		"cpu": 10,
 		"memory": 256,
-		"network_mode": "awsvpc",
 		"essential": true,
 		"portMappings": [{
 			"containerPort": 3000,
