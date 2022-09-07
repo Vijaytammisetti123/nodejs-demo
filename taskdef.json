@@ -4,7 +4,7 @@
         {
             "image": "049398875557.dkr.ecr.ap-south-1.amazonaws.com/jenkins:%BUILD_NUMBER%",
             "name": "flask-signup",
-            "requiresCompatibilities": ["FARGATE"], 
+            "requiresCompatibilities": "FARGATE", 
             "cpu": 10,
             "memory": 256,
             "essential": true,
