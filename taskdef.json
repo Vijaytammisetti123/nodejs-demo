@@ -11,8 +11,6 @@
 			"hostPort": 80
 		}]
 	}],
-	"requiresCompatibilities": [
-		"FARGATE"
-	]
-  network_mode = "awsvpc"
+	"requiresCompatibilities": ["FARGATE"],
+	"network_mode": ["awsvpc"]
 }
