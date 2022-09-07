@@ -12,5 +12,5 @@
 		}]
 	}],
 	"requiresCompatibilities": ["FARGATE"],
-	"network_mode": ["awsvpc"]
+	"network_mode": "awsvpc"
 }
