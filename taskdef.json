@@ -3,7 +3,9 @@
     "containerDefinitions": [
         {
             "name": "flask-signup", 
-            "image": "049398875557.dkr.ecr.ap-south-1.amazonaws.com/jenkins:%BUILD_NUMBER%", 
+            "image": "049398875557.dkr.ecr.ap-south-1.amazonaws.com/jenkins:%BUILD_NUMBER%",
+	    "cpu": "10", 
+	    "memory": 256"
             "portMappings": [
                 {
                     "containerPort": 3000, 
@@ -24,6 +26,5 @@
     "requiresCompatibilities": [
         "FARGATE"
     ], 
-    "cpu": "10", 
-    "memory": "256"
+    
 }
