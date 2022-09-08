@@ -1,21 +1,21 @@
 {
 	"family": "flask-signup",
+	"networkMode": "awsvpc",
+	"executionRoleArn": "arn:aws:iam::049398875557:role/ecsTaskExecutionRole",
 	"containerDefinitions": [{
-		"name": "flask-signup",
 		"image": "049398875557.dkr.ecr.ap-south-1.amazonaws.com/jenkins:%BUILD_NUMBER%",
+		"name": "flask-signup",
 		"cpu": 10,
 		"memory": 256,
-		"networkMode": "awsvpc",
 		"essential": true,
 		"portMappings": [{
 			"containerPort": 3000,
 			"hostPort": 80
 		}]
 	}],
-	"compatibilities": [
-		"EC2",
+	"requiresCompatibilities": [
 		"FARGATE"
 	],
-	"requiresCompatibilities": ["FARGATE"]
-
+	"cpu": "256",
+	"memory": "512"
 }
